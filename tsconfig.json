@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "target": "es2019",
+    "noImplicitAny": false,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": "./src",
+    "outDir": "lib",
+    "typeRoots": ["./src/typings", "../../node_modules/@types", "./src/common"],
+    "types": ["reflect-metadata", "jest"]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "out",
+    "**/node_modules/**/*.(ts|js)"
+  ]
+}
